@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key = "location"
+        android:title="Location Preference"
+        android:defaultValue="@string/location_deafult_id"
+        android:inputType="text"
+        android:singleLine="true"
+
+        />
+    <ListPreference
+        android:key="daycount"
+        android:title="Number of entries"
+        android:defaultValue="8"
+        android:entryValues="@array/daycount_entryvalues"
+        android:entries="@array/daycount_entryvalues"
+        />
+
+
+
+
+
+
+</PreferenceScreen>
